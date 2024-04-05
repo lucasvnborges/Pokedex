@@ -4,6 +4,10 @@ the challenge is to consult the public api pokeapi and consume the data, and sho
 
 1. **Instructions to run the project**
 
+  ```bash
+    git clone https://github.com/lucasvnborges/Pokedex.git
+  ```
+
    ```bash
    yarn install
    ```
