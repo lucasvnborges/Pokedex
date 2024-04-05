@@ -14,5 +14,8 @@ the challenge is to consult the public api pokeapi and consume the data, and sho
    # to run
   ```bash
   yarn android
+  ````
+
+  ```bash
   yarn ios
   ````
