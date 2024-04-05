@@ -1,7 +1,7 @@
 import React from "react";
+import { Platform } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Feather } from "@expo/vector-icons";
-import { useTheme } from "react-native-paper";
 // screens
 import HomeScreen from "../screens/Home";
 import ProfileScreen from "../screens/Profile";
@@ -9,11 +9,13 @@ import ProfileScreen from "../screens/Profile";
 const Tab = createBottomTabNavigator();
 
 export function MainTabs() {
-  const theme = useTheme();
-
   return (
     <Tab.Navigator
-      screenOptions={{ headerShown: false, tabBarStyle: { padding: 10 } }}
+      screenOptions={{
+        headerShown: false,
+        tabBarLabelStyle: { marginBottom: Platform.OS === "ios" ? 0 : 12 },
+        tabBarStyle: { height: Platform.OS === "ios" ? 80 : 70, padding: 8 },
+      }}
     >
       <Tab.Screen
         name="Home"
