@@ -10,7 +10,9 @@ The application consists of two tabs on the main screen
 ### On the profile screen we have:
 - webview with my github profile
 
-1. **Instructions to run the project**
+<br>
+
+# 1. **Instructions to run the project**
 
   ```bash
   git clone https://github.com/lucasvnborges/Pokedex.git
@@ -19,7 +21,7 @@ The application consists of two tabs on the main screen
    ```bash
    yarn install
    ```
-   # to run
+
   ```bash
   yarn android
   ````
@@ -28,7 +30,7 @@ The application consists of two tabs on the main screen
   yarn ios
   ````
 
-2. **Instructions to test**
+# 2. **Instructions to test**
 ```bash
   yarn test
 ```
