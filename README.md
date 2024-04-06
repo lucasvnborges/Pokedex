@@ -1,6 +1,6 @@
 # React Native Challenge
 
-the challenge is to consult the public api pokeapi and consume the data, and show the profile of a social network in tabs on main screen
+the challenge is to consult the public api [pokeapi](https://pokeapi.co/api/v2) and consume the data, and show the profile of a social network in tabs on main screen
 
 1. **Instructions to run the project**
 
