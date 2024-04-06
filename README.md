@@ -10,12 +10,14 @@ The application consists of two tabs on the main screen
 ### On the profile screen we have:
 - webview with my github profile
 
-<br>
-
 # 1. **Instructions to run the project**
 
   ```bash
   git clone https://github.com/lucasvnborges/Pokedex.git
+  ```
+
+  ```bash
+  cd Pokedex
   ```
 
    ```bash
