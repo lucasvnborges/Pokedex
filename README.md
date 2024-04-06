@@ -19,3 +19,8 @@ the challenge is to consult the public api pokeapi and consume the data, and sho
   ```bash
   yarn ios
   ````
+
+2. **Instructions to test**
+```bash
+  yarn test
+```
