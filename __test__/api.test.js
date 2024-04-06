@@ -30,8 +30,6 @@ describe("Pokemon Service", () => {
 
       const types = await getPokemonTypes();
 
-      console.log("types: ", types);
-
       expect(types).toEqual(mockResponse.data.results);
       expect(axios.get).toHaveBeenCalledWith("https://pokeapi.co/api/v2/type");
     });
