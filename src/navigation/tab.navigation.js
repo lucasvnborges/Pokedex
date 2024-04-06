@@ -2,9 +2,7 @@ import React from "react";
 import { Platform } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Feather } from "@expo/vector-icons";
-// screens
-import HomeScreen from "../screens/Home";
-import ProfileScreen from "../screens/Profile";
+import { HomeScreen, ProfileScreen } from "../screens";
 
 const Tab = createBottomTabNavigator();
 
