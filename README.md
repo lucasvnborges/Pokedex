@@ -2,7 +2,7 @@
 
 The application consists of two tabs on the main screen
 
-### On the first screen we have:
+#### On the first screen we have:
 - listing of types of Pokemons
 - listing of Pokemons by type
 - Pokemon details with photo, name and id
