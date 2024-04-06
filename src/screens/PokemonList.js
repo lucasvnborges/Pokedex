@@ -57,10 +57,15 @@ export default function PokemonList() {
     </View>
   );
 
+  const capitalize = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
+
   return (
     <View style={styles.container}>
       <Appbar.Header mode="small" statusBarHeight={0} style={styles.header}>
         <Appbar.BackAction onPress={() => navigation.goBack()} />
+        <Appbar.Content title={capitalize(params.item.name)} />
       </Appbar.Header>
 
       <FlatList
