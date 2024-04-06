@@ -1,6 +1,6 @@
 # React Native Challenge
 
-The application consists of two tabs on the main screen
+App that consumes a public api of Pokemons, and displays a screen with a webview for a personal social network
 
 ### On the first tab we have:
 - listing of types of Pokemons
