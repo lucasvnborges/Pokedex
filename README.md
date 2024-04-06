@@ -1,17 +1,29 @@
 # React Native Challenge
 
-the challenge is to consult the public api pokeapi and consume the data, and show the profile of a social network in tabs on main screen
+The application consists of two tabs on the main screen
 
-1. **Instructions to run the project**
+### On the first screen we have:
+- listing of types of Pokemons
+- listing of Pokemons by type
+- Pokemon details with photo, name and id
+
+### On the profile screen we have:
+- webview with my github profile
+
+# 1. **Instructions to run the project**
 
   ```bash
   git clone https://github.com/lucasvnborges/Pokedex.git
   ```
 
+  ```bash
+  cd Pokedex
+  ```
+
    ```bash
    yarn install
    ```
-   # to run
+
   ```bash
   yarn android
   ````
@@ -20,7 +32,7 @@ the challenge is to consult the public api pokeapi and consume the data, and sho
   yarn ios
   ````
 
-2. **Instructions to test**
+# 2. **Instructions to test**
 ```bash
   yarn test
 ```
